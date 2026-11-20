@@ -1,0 +1,6 @@
+# Never publish private local data or credentials
+studyflow_data.json
+.streamlit/secrets.toml
+.env
+__pycache__/
+*.py[cod]
