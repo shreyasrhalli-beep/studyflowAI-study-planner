@@ -1,6 +1,4 @@
-            generate_plan = st.form_submit_button(
-                "✦ Generate my timetable", type="primary", use_container_width=True
-            )
+ generate_plan = st.form_submit_button("✦ Generate my timetable", type="primary", use_container_width=True)
 
     if generate_plan:
         if not grade.strip() or not subjects.strip():
